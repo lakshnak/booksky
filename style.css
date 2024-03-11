@@ -1,0 +1,120 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#nav #navbar{
+   background-color: red;
+   padding:20px;
+}
+.container{
+  padding: 10px;
+
+}
+
+.over{
+ vertical-align: top;
+  display: inline-block;
+  background-color: black;
+  width: 30%;
+  padding: 20px;
+  margin:20px;
+  border-radius: 10px;
+  color: white;
+  
+}
+.over h2{
+  color: red;
+}
+.over h2,h3{
+  margin-bottom: 10px;
+}
+button{
+  background-color: white;
+  background-color: red;
+  color:white;
+  font-weight: 200;
+  padding:10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.addbutton{
+   margin-left: 90%;
+   padding: 40px;
+   border-radius: 50%;
+   background-color:red;
+   opacity: 0.8;
+   color: white;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+}
+#pop{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0px ;
+  left:0px;
+  opacity: 0.8;
+  z-index: 1;
+  display: none;
+}
+#overlay{
+  background-color: red;
+  width:30%;
+  opacity: 0.8;
+  top: 20%;
+  left: 30%;
+  position: absolute;
+  z-index: 2;
+  border-radius: 10px;
+  padding: 40px;
+  display: none;
+}
+#overlay input{
+  background: transparent;
+  width: 100%;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: solid black 2px ;
+ 
+}
+#overlay input::placeholder{
+  color: black;
+  font-size: 17px;
+}
+#overlay h2{
+  padding : 20px 0px;
+}
+#overlay textarea{
+  background: transparent;
+  width: 100%;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+ border-bottom: solid black 2px ;
+ 
+}
+
+#overlay textarea::placeholder{
+  color: black;
+  font-size: 17px;
+}
+#overlay textarea:hover{
+  border: solid purple 2px;
+}
+#overlay input:hover{
+  border: solid purple 2px;
+}
+#overlay #add,#cancel{
+  background-color: black;
+  color: white;
+}

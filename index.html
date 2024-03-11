@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <section id="nav">
+        <div id="navbar">
+            <h1>Booksky</h1>
+         </div>
+    </section>
+   <section>
+     <div  class="container ">
+     <div class="over">
+       <h2>Who Moved My cheese</h2>
+       <h3>Spenser Johnson</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos illo enim fugit,
+        veritatis excepturi ipsam voluptas aspernatur  voluptate quibusdam provident sunt neque aut, 
+        deleniti obcaecati odit. Iure, ea eligendi?</p>  
+        <button onclick="deletebtn(event)">Delete</button>
+     </div>
+    
+    </div>
+    <div id="pop">
+
+    </div>
+    <div id="overlay">
+   <h2>Add Book</h2>
+   <form>
+    <input type="text" placeholder="Book Title" id="book-title">
+    <input type="text" placeholder="Book Author" id="book-author">
+    <textarea placeholder="Description" id="bookdes"></textarea>
+    <button id="add">add</button>
+    <button id="cancel">cancel</button>
+   </form>
+    </div>
+   
+        <button class="addbutton" id="add-button"><i class="fa-solid fa-plus"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
